@@ -6,6 +6,8 @@ const char* password = "12345678";
 
 byte tries = 10; // попыток подключения
 
+
+
 void setup() {
 //откроем соединение, что бы выводить результат работы программы
 Serial.begin(115200);
@@ -31,4 +33,5 @@ else
   Serial.println(WiFi.localIP());
 }
 }
-void loop(){}
+void loop(){
+}
